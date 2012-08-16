@@ -1,3 +1,28 @@
+Start -> Ausführen: cmd
+oder Terminal suchen
+
+Git Installieren
+http://cldotde.wordpress.com/2010/12/01/git-fur-windows-installieren-und-nutzen/
+
+Dann
+git clone https://github.com/svenwittek/simple-game.git
+cd simple-game
+
+lege hier deine Dateien rein 
+
+git commit -am "lustige nachricht"
+// versioniert
+
+git push
+// etz is auf github
+
+fehler?
+git push -u origin master
+git remote add origin https://github.com/svenwittek/simple-game.git
+
+
+
+
 Create a new repository on the command line
 
 touch README.md
